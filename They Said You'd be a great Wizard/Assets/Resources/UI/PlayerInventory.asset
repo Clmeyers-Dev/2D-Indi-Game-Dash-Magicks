@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60fc5afe02db7f748972fcd833c9b541, type: 3}
+  m_Name: PlayerInventory
+  m_EditorClassIdentifier: 
+  type: 0
+  savePath: 
+  database: {fileID: 11400000, guid: 26897f9333b649c47b57e3ddf09e2d6e, type: 2}
+  Container:
+    Slots:
+    - AllowedItems: 
+      item:
+        value: 0
+        canDie: 0
+        timeRemaining: 10
+        Name: 
+        Id: -1
+        buffs: []
+      amount: 0
+    - AllowedItems: 
+      item:
+        value: 0
+        canDie: 0
+        timeRemaining: 10
+        Name: 
+        Id: 0
+        buffs: []
+      amount: 0
+    - AllowedItems: 
+      item:
+        value: 0
+        canDie: 0
+        timeRemaining: 10
+        Name: 
+        Id: -1
+        buffs: []
+      amount: 0
