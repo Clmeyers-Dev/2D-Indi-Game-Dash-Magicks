@@ -1,0 +1,608 @@
+/target:library
+/out:Temp/Unity.InputSystem.dll
+/nowarn:0169
+/nowarn:0649
+/refout:Temp/Unity.InputSystem.dll.ref
+/unsafe
+/deterministic
+/debug:portable
+/optimize-
+/nostdlib+
+/preferreduilang:en-US
+/langversion:8.0
+/reference:Library/ScriptAssemblies/UnityEditor.UI.dll
+/reference:Library/ScriptAssemblies/UnityEngine.UI.dll
+/reference:"H:/GameDevelopment/WizardIndigame/They Said You'd be a great Wizard/Library/PackageCache/com.unity.render-pipelines.core@10.4.0/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll"
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEditor.Graphs.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEditor.GraphViewModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEditor.PackageManagerUIModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIServiceModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEditor.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.GIModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsNativeModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Numerics.Vectors.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ComponentModel.Composition.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Core.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Data.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Drawing.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.IO.Compression.FileSystem.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Net.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Numerics.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Runtime.Serialization.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ServiceModel.Web.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Transactions.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Web.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Windows.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Linq.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/Microsoft.Win32.Primitives.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.AppContext.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Concurrent.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.NonGeneric.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Specialized.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.Primitives.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.TypeConverter.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Console.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Data.Common.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Contracts.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Debug.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Process.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.StackTrace.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tools.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TraceSource.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tracing.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Drawing.Primitives.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Dynamic.Runtime.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Calendars.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Extensions.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.ZipFile.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Primitives.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Watcher.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.IsolatedStorage.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.MemoryMappedFiles.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Pipes.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Expressions.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Parallel.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Queryable.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Http.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NameResolution.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NetworkInformation.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Ping.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Primitives.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Requests.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Security.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Sockets.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebHeaderCollection.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.Client.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ObjectModel.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Extensions.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Primitives.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Reader.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.ResourceManager.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Writer.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Extensions.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Handles.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Numerics.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Json.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Xml.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Claims.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Csp.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Encoding.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Primitives.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Principal.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.SecureString.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.Extensions.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.RegularExpressions.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Overlapped.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.Parallel.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Thread.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.ThreadPool.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Timer.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ValueTuple.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.ReaderWriter.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XDocument.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.XDocument.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlDocument.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlSerializer.dll
+/reference:H:/storage/Unity/2020.3.5f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll
+/define:CSHARP_7_3_OR_NEWER
+/define:CSHARP_7_OR_LATER
+/define:DEBUG
+/define:ENABLE_AR
+/define:ENABLE_AUDIO
+/define:ENABLE_BURST_AOT
+/define:ENABLE_CACHING
+/define:ENABLE_CLOTH
+/define:ENABLE_CLOUD_LICENSE
+/define:ENABLE_CLOUD_SERVICES
+/define:ENABLE_CLOUD_SERVICES_ADS
+/define:ENABLE_CLOUD_SERVICES_ANALYTICS
+/define:ENABLE_CLOUD_SERVICES_BUILD
+/define:ENABLE_CLOUD_SERVICES_COLLAB
+/define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+/define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+/define:ENABLE_CLOUD_SERVICES_PURCHASING
+/define:ENABLE_CLOUD_SERVICES_UNET
+/define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+/define:ENABLE_CLUSTERINPUT
+/define:ENABLE_CLUSTER_SYNC
+/define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+/define:ENABLE_CUSTOM_RENDER_TEXTURE
+/define:ENABLE_DIRECTOR
+/define:ENABLE_DIRECTOR_AUDIO
+/define:ENABLE_DIRECTOR_TEXTURE
+/define:ENABLE_EDITOR_HUB_LICENSE
+/define:ENABLE_EVENT_QUEUE
+/define:ENABLE_INPUT_SYSTEM
+/define:ENABLE_LEGACY_INPUT_MANAGER
+/define:ENABLE_LOCALIZATION
+/define:ENABLE_LZMA
+/define:ENABLE_MANAGED_ANIMATION_JOBS
+/define:ENABLE_MANAGED_AUDIO_JOBS
+/define:ENABLE_MANAGED_JOBS
+/define:ENABLE_MANAGED_TRANSFORM_JOBS
+/define:ENABLE_MICROPHONE
+/define:ENABLE_MONO
+/define:ENABLE_MONO_BDWGC
+/define:ENABLE_MOVIES
+/define:ENABLE_MULTIPLE_DISPLAYS
+/define:ENABLE_NETWORK
+/define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+/define:ENABLE_PHYSICS
+/define:ENABLE_PROFILER
+/define:ENABLE_RUNTIME_GI
+/define:ENABLE_SCRIPTING_GC_WBARRIERS
+/define:ENABLE_SPRITES
+/define:ENABLE_TERRAIN
+/define:ENABLE_TEXTURE_STREAMING
+/define:ENABLE_TILEMAP
+/define:ENABLE_TIMELINE
+/define:ENABLE_UNET
+/define:ENABLE_UNITYEVENTS
+/define:ENABLE_UNITYWEBREQUEST
+/define:ENABLE_UNITY_COLLECTIONS_CHECKS
+/define:ENABLE_VIDEO
+/define:ENABLE_VIRTUALTEXTURING
+/define:ENABLE_VR
+/define:ENABLE_WEBCAM
+/define:ENABLE_WEBSOCKET_CLIENT
+/define:ENABLE_WEBSOCKET_HOST
+/define:ENABLE_WWW
+/define:GFXDEVICE_WAITFOREVENT_MESSAGEPUMP
+/define:INCLUDE_DYNAMIC_GI
+/define:NET_STANDARD_2_0
+/define:PLATFORM_STANDALONE
+/define:PLATFORM_STANDALONE_WIN
+/define:PLATFORM_SUPPORTS_MONO
+/define:PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP
+/define:RENDER_SOFTWARE_CURSOR
+/define:SCENE_TEMPLATE_MODULE
+/define:TRACE
+/define:UNITY_2017_1_OR_NEWER
+/define:UNITY_2017_2_OR_NEWER
+/define:UNITY_2017_3_OR_NEWER
+/define:UNITY_2017_4_OR_NEWER
+/define:UNITY_2018_1_OR_NEWER
+/define:UNITY_2018_2_OR_NEWER
+/define:UNITY_2018_3_OR_NEWER
+/define:UNITY_2018_4_OR_NEWER
+/define:UNITY_2019_1_OR_NEWER
+/define:UNITY_2019_2_OR_NEWER
+/define:UNITY_2019_3_OR_NEWER
+/define:UNITY_2019_4_OR_NEWER
+/define:UNITY_2020
+/define:UNITY_2020_1_OR_NEWER
+/define:UNITY_2020_2_OR_NEWER
+/define:UNITY_2020_3
+/define:UNITY_2020_3_5
+/define:UNITY_2020_3_OR_NEWER
+/define:UNITY_5_3_OR_NEWER
+/define:UNITY_5_4_OR_NEWER
+/define:UNITY_5_5_OR_NEWER
+/define:UNITY_5_6_OR_NEWER
+/define:UNITY_ASSERTIONS
+/define:UNITY_EDITOR
+/define:UNITY_EDITOR_64
+/define:UNITY_EDITOR_WIN
+/define:UNITY_INCLUDE_TESTS
+/define:UNITY_INPUT_SYSTEM_ENABLE_PHYSICS
+/define:UNITY_INPUT_SYSTEM_ENABLE_PHYSICS2D
+/define:UNITY_INPUT_SYSTEM_ENABLE_UI
+/define:UNITY_INPUT_SYSTEM_ENABLE_VR
+/define:UNITY_INPUT_SYSTEM_ENABLE_XR
+/define:UNITY_STANDALONE
+/define:UNITY_STANDALONE_WIN
+/define:UNITY_TEAM_LICENSE
+/define:USE_SEARCH_ENGINE_API
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Actions\Composites\AxisComposite.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Actions\Composites\ButtonWithOneModifier.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Actions\Composites\ButtonWithTwoModifiers.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Actions\Composites\Vector2Composite.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Actions\IInputActionCollection.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Actions\IInputInteraction.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Actions\InputAction.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Actions\InputActionAsset.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Actions\InputActionChange.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Actions\InputActionMap.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Actions\InputActionPhase.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Actions\InputActionProperty.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Actions\InputActionRebindingExtensions.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Actions\InputActionReference.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Actions\InputActionSetupExtensions.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Actions\InputActionState.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Actions\InputActionTrace.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Actions\InputActionType.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Actions\InputBinding.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Actions\InputBindingComposite.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Actions\InputBindingCompositeContext.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Actions\InputBindingResolver.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Actions\InputControlScheme.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Actions\InputInteractionContext.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Actions\Interactions\HoldInteraction.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Actions\Interactions\MultiTapInteraction.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Actions\Interactions\PressInteraction.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Actions\Interactions\SlowTapInteraction.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Actions\Interactions\TapInteraction.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\AssemblyInfo.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Controls\AnyKeyControl.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Controls\AxisControl.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Controls\ButtonControl.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Controls\CommonUsages.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Controls\DiscreteButtonControl.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Controls\DoubleControl.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Controls\DpadControl.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Controls\InputControl.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Controls\InputControlAttribute.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Controls\InputControlExtensions.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Controls\InputControlLayout.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Controls\InputControlLayoutAttribute.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Controls\InputControlLayoutChange.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Controls\InputControlList.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Controls\InputControlPath.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Controls\InputProcessor.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Controls\IntegerControl.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Controls\KeyControl.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Controls\Processors\AxisDeadzoneProcessor.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Controls\Processors\ClampProcessor.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Controls\Processors\CompensateDirectionProcessor.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Controls\Processors\CompensateRotationProcessor.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Controls\Processors\EditorWindowSpaceProcessor.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Controls\Processors\InvertProcessor.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Controls\Processors\InvertVector2Processor.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Controls\Processors\InvertVector3Processor.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Controls\Processors\NormalizeProcessor.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Controls\Processors\NormalizeVector2Processor.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Controls\Processors\NormalizeVector3Processor.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Controls\Processors\ScaleProcessor.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Controls\Processors\ScaleVector2Processor.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Controls\Processors\ScaleVector3Processor.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Controls\Processors\StickDeadzoneProcessor.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Controls\QuaternionControl.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Controls\StickControl.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Controls\TouchControl.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Controls\TouchPhaseControl.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Controls\TouchPressControl.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Controls\Vector2Control.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Controls\Vector3Control.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Devices\Commands\DisableDeviceCommand.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Devices\Commands\EnableDeviceCommand.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Devices\Commands\EnableIMECompositionCommand.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Devices\Commands\IInputDeviceCommandInfo.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Devices\Commands\InitiateUserAccountPairingCommand.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Devices\Commands\InputDeviceCommand.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Devices\Commands\QueryCanRunInBackground.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Devices\Commands\QueryDimensionsCommand.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Devices\Commands\QueryEditorWindowCoordinatesCommand.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Devices\Commands\QueryEnabledStateCommand.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Devices\Commands\QueryKeyNameCommand.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Devices\Commands\QueryKeyboardLayoutCommand.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Devices\Commands\QueryPairedUserAccountCommand.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Devices\Commands\QuerySamplingFrequencyCommand.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Devices\Commands\QueryUserIdCommand.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Devices\Commands\RequestResetCommand.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Devices\Commands\RequestSyncCommand.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Devices\Commands\SetIMECursorPositionCommand.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Devices\Commands\SetSamplingFrequencyCommand.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Devices\Commands\WarpMousePositionCommand.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Devices\Gamepad.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Devices\Haptics\DualMotorRumble.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Devices\Haptics\DualMotorRumbleCommand.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Devices\Haptics\IDualMotorRumble.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Devices\Haptics\IHaptics.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Devices\IInputUpdateCallbackReceiver.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Devices\ITextInputReceiver.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Devices\InputDevice.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Devices\InputDeviceBuilder.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Devices\InputDeviceChange.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Devices\InputDeviceDescription.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Devices\InputDeviceMatcher.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Devices\Joystick.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Devices\Keyboard.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Devices\Mouse.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Devices\Pen.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Devices\Pointer.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Devices\Remote\InputRemoting.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Devices\Remote\RemoteInputPlayerConnection.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Devices\Sensor.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Devices\Touchscreen.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Devices\TrackedDevice.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\AssetEditor\InputActionAssetManager.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\AssetEditor\InputActionEditorToolbar.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\AssetEditor\InputActionEditorWindow.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\AssetEditor\InputActionPropertiesView.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\AssetEditor\InputActionTreeView.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\AssetEditor\InputActionTreeViewItems.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\AssetEditor\InputBindingPropertiesView.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\AssetEditor\NameAndParameterListView.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\AssetEditor\ParameterListView.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\AssetEditor\PropertiesViewBase.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\AssetImporter\InputActionAssetEditor.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\AssetImporter\InputActionCodeGenerator.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\AssetImporter\InputActionImporter.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\AssetImporter\InputActionImporterEditor.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\ControlPicker\InputControlDropdownItem.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\ControlPicker\InputControlPathEditor.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\ControlPicker\InputControlPicker.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\ControlPicker\InputControlPickerDropdown.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\ControlPicker\InputControlPickerState.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\Debugger\InputActionDebuggerWindow.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\Debugger\InputDebuggerWindow.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\Debugger\InputDeviceDebuggerWindow.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\DownloadableSample.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\EditorInputControlLayoutCache.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\InputDiagnostics.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\InputParameterEditor.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\Internal\AdvancedDropdown\AdvancedDropdown.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\Internal\AdvancedDropdown\AdvancedDropdownDataSource.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\Internal\AdvancedDropdown\AdvancedDropdownGUI.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\Internal\AdvancedDropdown\AdvancedDropdownItem.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\Internal\AdvancedDropdown\AdvancedDropdownState.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\Internal\AdvancedDropdown\AdvancedDropdownWindow.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\Internal\AdvancedDropdown\CallbackDataSource.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\Internal\AdvancedDropdown\MultiLevelDataSource.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\Internal\EditorHelpers.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\Internal\GUIHelpers.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\Internal\InputActionSerializationHelpers.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\Internal\InputControlTreeView.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\Internal\InputEventTreeView.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\Internal\InputStateWindow.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\Internal\SerializedPropertyHelpers.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\Internal\TreeViewHelpers.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\PropertyDrawers\InputActionDrawer.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\PropertyDrawers\InputActionDrawerBase.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\PropertyDrawers\InputActionMapDrawer.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\PropertyDrawers\InputActionPropertyDrawer.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\PropertyDrawers\InputControlPathDrawer.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\Settings\EditorPlayerSettingHelpers.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\Settings\InputEditorUserSettings.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\Settings\InputSettingsBuildProvider.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Editor\Settings\InputSettingsProvider.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Events\ActionEvent.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Events\DeltaStateEvent.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Events\DeviceConfigurationEvent.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Events\DeviceRemoveEvent.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Events\IInputEventTypeInfo.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Events\IMECompositionEvent.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Events\InputEvent.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Events\InputEventBuffer.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Events\InputEventPtr.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Events\InputEventTrace.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Events\StateEvent.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Events\TextEvent.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\IInputDiagnostics.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\IInputRuntime.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputAnalytics.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputExtensions.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputManager.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputMetrics.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSettings.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystem.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputSystemObject.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\InputUpdateType.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\NativeInputRuntime.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\Android\AndroidAxis.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\Android\AndroidGameController.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\Android\AndroidKeyCode.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\Android\AndroidSensors.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\Android\AndroidSupport.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\DualShock\DualShockGamepad.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\DualShock\DualShockGamepadHID.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\DualShock\DualShockSupport.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\DualShock\IDualShockHaptics.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\EnhancedTouch\EnhancedTouchSupport.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\EnhancedTouch\Finger.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\EnhancedTouch\Touch.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\EnhancedTouch\TouchHistory.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\EnhancedTouch\TouchSimulation.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\HID\HID.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\HID\HIDDescriptorWindow.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\HID\HIDParser.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\HID\HIDSupport.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\Linux\LinuxSupport.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\Linux\SDLDeviceBuilder.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\OnScreen\OnScreenButton.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\OnScreen\OnScreenControl.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\OnScreen\OnScreenStick.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\OnScreen\OnScreenSupport.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\PlayerInput\InputValue.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\PlayerInput\PlayerInput.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\PlayerInput\PlayerInputEditor.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\PlayerInput\PlayerInputManager.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\PlayerInput\PlayerInputManagerEditor.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\PlayerInput\PlayerJoinBehavior.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\PlayerInput\PlayerNotifications.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\Steam\IStreamControllerAPI.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\Steam\SteamController.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\Steam\SteamControllerType.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\Steam\SteamHandle.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\Steam\SteamIGAConverter.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\Steam\SteamSupport.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\Switch\SwitchProControllerHID.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\Switch\SwitchSupportHID.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\UI\BaseInputOverride.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\UI\ExtendedPointerEventData.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\UI\InputSystemUIInputModule.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\UI\InputSystemUIInputModuleEditor.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\UI\MultiplayerEventSystem.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\UI\NavigationModel.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\UI\PointerModel.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\UI\StandaloneInputModuleEditor.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\UI\TrackedDeviceRaycaster.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\UI\UISupport.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\Users\InputUser.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\Users\InputUserAccountHandle.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\Users\InputUserChange.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\Users\InputUserPairingOptions.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\Users\InputUserSettings.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\WebGL\WebGLGamepad.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\WebGL\WebGLJoystick.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\WebGL\WebGLSupport.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\XInput\IXboxOneRumble.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\XInput\XInputController.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\XInput\XInputControllerWindows.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\XInput\XInputSupport.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\XInput\XboxGamepadMacOS.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\XR\Devices\GoogleVR.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\XR\Devices\Oculus.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\XR\Devices\OpenVR.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\XR\Devices\WindowsMR.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\XR\GenericXRDevice.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\XR\Haptics\BufferedRumble.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\XR\Haptics\GetCurrentHapticStateCommand.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\XR\Haptics\GetHapticCapabilitiesCommand.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\XR\Haptics\SendBufferedHapticsCommand.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\XR\Haptics\SendHapticImpulseCommand.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\XR\TrackedPoseDriver.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\XR\XRLayoutBuilder.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\XR\XRSupport.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\iOS\IOSGameController.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Plugins\iOS\iOSSupport.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\State\IInputStateCallbackReceiver.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\State\IInputStateChangeMonitor.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\State\IInputStateTypeInfo.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\State\InputState.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\State\InputStateBlock.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\State\InputStateBuffers.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\State\InputStateHistory.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Utilities\ArrayHelpers.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Utilities\CSharpCodeHelpers.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Utilities\Comparers.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Utilities\DelegateHelpers.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Utilities\DisplayStringFormatAttribute.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Utilities\DynamicBitfield.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Utilities\ExceptionHelpers.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Utilities\FourCC.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Utilities\InlinedArray.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Utilities\InternedString.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Utilities\JsonParser.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Utilities\MemoryHelpers.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Utilities\NameAndParameters.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Utilities\NamedValue.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Utilities\NumberHelpers.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Utilities\OneOrMore.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Utilities\PrimitiveValue.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Utilities\ReadOnlyArray.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Utilities\StringHelpers.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Utilities\Substring.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Utilities\TypeHelpers.cs"
+"H:\GameDevelopment\WizardIndigame\They Said You'd be a great Wizard\Library\PackageCache\com.unity.inputsystem@1.0.2\InputSystem\Utilities\TypeTable.cs"
